@@ -29,16 +29,25 @@ All the columns exxcept the target variable is considered as the input variable
  Layer 1 : 80
   Layer 2 : 30
   hidden layer : 2
-  Accuracy of 72% 
+  Accuracy of 72.9% 
   
   #### Second Attempt
   Layer 1: 100
-  Layer 2: 50
-  Layer 3: 20
+  Layer 2: 70
+  Layer 3: 60
   Hidden Layer: 3
-  Accuracy of 68%
+  Accuracy of 72.81%
   
-  Lowering of the accuracy of the y test values after opitimization implies that the additional layers has resulted in overfitting of the curve
+  #### Third Attempt
+   Layer 1:  70 
+  Layer 2: 40
+  Layer 3: 30
+  Layer 4: 20
+  Hidden Layer: 3
+  Accuracy of 72.66%
+
+  
+  The Accuracy of all the neural networks came up to around 72%, and the loss was around 55 %. Lowering of the accuracy of the y test values after opitimization implies that the additional layers has resulted in overfitting of the curve
   
 
 
