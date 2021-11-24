@@ -17,6 +17,7 @@ Alphabet Soup’s business team, CSV containing more than 34,000 organizations t
 
 ## Results
 
+
 ### Data Preprocessing
 "IS_SUCCESSFUL " was considered as the target column
 All the columns exxcept the target variable is considered as the input variable 
@@ -32,7 +33,8 @@ All the columns exxcept the target variable is considered as the input variable
 -  Layer 2 : 30
 -  hidden layer : 2
 -  Accuracy of 72.9% 
-  
+  <img width="721" alt="Screen Shot 2021-11-23 at 10 03 19 PM" src="https://user-images.githubusercontent.com/57809798/143163937-63a3d8c2-83f5-4272-b982-4e697b4bb3cc.png">
+
   #### Second Attempt
 -  Layer 1: 100
 -  Layer 2: 70
@@ -40,6 +42,7 @@ All the columns exxcept the target variable is considered as the input variable
 -  Hidden Layer: 3
 -  Accuracy of 72.81%
   <img width="970" alt="Screen Shot 2021-11-23 at 9 28 44 PM" src="https://user-images.githubusercontent.com/57809798/143160528-a758f32e-7a27-4544-a0bf-59aeb2711b30.png">
+<img width="735" alt="Screen Shot 2021-11-23 at 10 03 01 PM" src="https://user-images.githubusercontent.com/57809798/143163918-4fb251d8-fa7d-4887-9ae8-31e341e942d2.png">
 
   #### Third Attempt
 -   Layer 1:  70 
@@ -49,6 +52,8 @@ All the columns exxcept the target variable is considered as the input variable
 -  Hidden Layer: 3
 -  Accuracy of 72.66%
 <img width="944" alt="Screen Shot 2021-11-23 at 9 29 58 PM" src="https://user-images.githubusercontent.com/57809798/143160653-f100f733-d68e-4c2a-bdc2-0c9ef08a9dbc.png">
+
+<img width="732" alt="Screen Shot 2021-11-23 at 9 59 16 PM" src="https://user-images.githubusercontent.com/57809798/143163584-edca30e9-68e1-4bd2-b89a-7b8fb2be9644.png">
 
   
   The Accuracy of all the neural networks came up to around 72%, and the loss was around 55 %. Lowering of the accuracy of the y test values after opitimization implies that the additional layers has resulted in overfitting of the curve
