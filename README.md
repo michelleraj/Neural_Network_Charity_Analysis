@@ -23,6 +23,8 @@ All the columns exxcept the target variable is considered as the input variable
  Columns were dropped for dimensionality reduction EIN, Name
  
  ### Compiling, Training, and Evaluating the Model
+ <img width="978" alt="Screen Shot 2021-11-23 at 8 24 04 PM" src="https://user-images.githubusercontent.com/57809798/143154128-87c810e7-c6d9-4967-a903-736637927e41.png">
+
  
  Activation layer, hidden layer and neurons used for the neural network
  #### First Attempt
@@ -37,7 +39,8 @@ All the columns exxcept the target variable is considered as the input variable
 -  Layer 3: 60
 -  Hidden Layer: 3
 -  Accuracy of 72.81%
-  
+  <img width="970" alt="Screen Shot 2021-11-23 at 9 28 44 PM" src="https://user-images.githubusercontent.com/57809798/143160528-a758f32e-7a27-4544-a0bf-59aeb2711b30.png">
+
   #### Third Attempt
 -   Layer 1:  70 
 -  Layer 2: 40
@@ -45,6 +48,7 @@ All the columns exxcept the target variable is considered as the input variable
 -  Layer 4: 20
 -  Hidden Layer: 3
 -  Accuracy of 72.66%
+<img width="944" alt="Screen Shot 2021-11-23 at 9 29 58 PM" src="https://user-images.githubusercontent.com/57809798/143160653-f100f733-d68e-4c2a-bdc2-0c9ef08a9dbc.png">
 
   
   The Accuracy of all the neural networks came up to around 72%, and the loss was around 55 %. Lowering of the accuracy of the y test values after opitimization implies that the additional layers has resulted in overfitting of the curve
